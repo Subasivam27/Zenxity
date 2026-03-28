@@ -1,17 +1,14 @@
-# Task Completion Plan for Back to Home Button, Contact Update, Header Fixes
+# Git Push to GitHub Task
+
+## Plan Summary
+Push local changes (BackToHome button, Navbar/Footer updates, pages) to https://github.com/Subasivam27/zenxity-farm-connect.git on blackboxai/back-home-updates-navbar-footer-pages branch.
 
 ## Steps:
-1. [x] Create new component `src/components/BackToHome.tsx` (fixed top-left Home button).
-2. [x] Update `src/components/Navbar.tsx` (remove Pricing, fix routing with NavLink, update logo/Get Started).
-3. [x] Update `src/components/Footer.tsx` (contact number to +91 9042359210).
-## Steps:
-1. [x] Create new component `src/components/BackToHome.tsx` (fixed top-left Home button).
-2. [x] Update `src/components/Navbar.tsx` (remove Pricing, fix routing with NavLink, update logo/Get Started).
-3. [x] Update `src/components/Footer.tsx` (contact number to +91 9042359210).
-4. [x] Edit 10 non-home pages: Add `import BackToHome` and `<BackToHome />` after `<Navbar />` (including NotFound.tsx).
+- [x] Create this TODO.md
+- [ ] Add git remote origin https://github.com/Subasivam27/zenxity-farm-connect.git
+- [ ] Create and switch to new branch blackboxai/back-home-updates-navbar-footer-pages
+- [ ] Push branch to origin: git push -u origin blackboxai/back-home-updates-navbar-footer-pages
+- [ ] Verify push with git ls-remote --heads origin
+- [ ] Provide PR instructions (gh CLI install)
 
-## Current Progress:
-- Plan approved by user.
-- All steps ✅ completed.
-
-Task complete: Back to Home button added to all non-home pages (no button on home), contact number changed to 9042359210, WhatsApp links use it, Pricing removed from header, header now routes to proper pages.
+**Next step:** Add remote.
