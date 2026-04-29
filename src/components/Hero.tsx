@@ -44,7 +44,7 @@ const Hero = () => {
       </div>
 
       {/* Floating card - desktop only */}
-      <div className="hidden lg:block absolute right-12 xl:right-24 bottom-24 w-80">
+      {/* <div className="hidden lg:block absolute right-12 xl:right-24 bottom-24 w-80">
         <div className="rounded-2xl overflow-hidden shadow-2xl border border-border/20">
           <img src={heroImg2} alt="Aerial view of farmland" width={1280} height={854} className="w-full h-40 object-cover" />
           <div className="p-5 bg-card/95 backdrop-blur space-y-3">
@@ -54,7 +54,7 @@ const Hero = () => {
             </div>
             <div className="text-3xl font-bold text-primary">₹18,400</div>
             <div className="flex gap-2 text-xs">
-              <span className="px-2 py-1 rounded-full bg-green-light text-primary font-medium">🌾 Paddy</span>
+              <span className="px-2 py-1 rounded-full bg-green-light text-primary font-medium">🌾Radishes</span>
               <span className="px-2 py-1 rounded-full bg-green-light text-primary font-medium">Harvest in 28 days</span>
             </div>
             <div className="w-full h-2 rounded-full bg-muted">
@@ -62,8 +62,8 @@ const Hero = () => {
             </div>
             <p className="text-xs text-muted-foreground">Crop growth: 72% complete</p>
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </section>
   );
 };

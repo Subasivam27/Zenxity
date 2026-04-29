@@ -64,6 +64,8 @@ const Pricing = () => {
             <span className={`text-sm font-medium ${!annual ? "text-foreground" : "text-muted-foreground"}`}>Monthly</span>
             <button
               onClick={() => setAnnual(!annual)}
+              title={annual ? "Switch to Monthly" : "Switch to Annual"}
+              aria-label={annual ? "Switch to Monthly" : "Switch to Annual"}
               className={`relative w-14 h-7 rounded-full transition-colors ${annual ? "bg-primary" : "bg-border"}`}
             >
               <div className={`absolute top-0.5 w-6 h-6 rounded-full bg-primary-foreground shadow transition-transform ${annual ? "translate-x-7" : "translate-x-0.5"}`} />

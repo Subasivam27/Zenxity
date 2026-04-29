@@ -11,13 +11,13 @@ const OurMission = () => {
       <main className="pt-24 pb-20">
         <section className="container max-w-3xl mx-auto">
           <span className="inline-block px-4 py-1.5 rounded-full bg-green-light text-primary text-sm font-medium mb-4">
-            Our Mission
+            Our Vision
           </span>
           <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Our Mission
+            Our Vision
           </h1>
           <p className="text-muted-foreground text-lg leading-relaxed mb-10">
-            Our mission is to help landowners make productive use of their agricultural land by providing reliable farm management and transparent updates. Zenxity aims to simplify agriculture through technology, professional expertise, and modern practices so that landowners can generate sustainable income from their land with complete visibility and trust.
+            Our vision is to help landowners make productive use of their agricultural land by providing reliable farm management and transparent updates. Zenxity aims to simplify agriculture through technology, professional expertise, and modern practices so that landowners can generate sustainable income from their land with complete visibility and trust.
           </p>
 
           <div className="space-y-8">

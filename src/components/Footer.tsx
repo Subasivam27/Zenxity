@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import leafLogo from "@/assets/zenxity-leaf.png";
-import { Facebook, Instagram, Twitter, Youtube, MessageCircle } from "lucide-react";
+import zenxityLogo from "@/assets/zenxity_logo.jpeg";
+import { Facebook, Instagram, Youtube, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <img src={leafLogo} alt="Zenxity" className="w-7 h-7 brightness-200" />
+              <img src={zenxityLogo} alt="Zenxity" className="w-7 h-7 rounded-full" />
               <span className="text-lg font-bold">Zenxity</span>
             </div>
             <p className="text-sm text-background/60 leading-relaxed">
@@ -25,8 +25,12 @@ const Footer = () => {
               <MessageCircle size={16} /> WhatsApp Us
             </a>
             <div className="flex gap-3 pt-2">
-              {[Facebook, Instagram, Twitter, Youtube].map((Icon, i) => (
-                <a key={i} href={`#social-${i}`} aria-label={`Follow us on ${['Facebook', 'Instagram', 'Twitter', 'YouTube'][i]}`} className="w-9 h-9 rounded-lg bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors">
+              {[
+                {Icon: Facebook, href: "https://www.facebook.com/zenxity"},
+                {Icon: Instagram, href: "https://www.instagram.com/zenxity.in?igsh=MXJpejNtYmU2NWRqbg=="},
+                {Icon: Youtube, href: "https://youtube.com/@zenxity-agri"}
+              ].map(({Icon, href}, i) => (
+                <a key={i} href={href} target="_blank" rel="noopener noreferrer" aria-label={`Follow us on ${['Facebook', 'Instagram', 'YouTube'][i]}`} className="w-9 h-9 rounded-lg bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors">
                   <Icon size={16} className="text-background/70" />
                 </a>
               ))}
@@ -69,10 +73,8 @@ const Footer = () => {
             <h4 className="font-semibold mb-4 text-sm uppercase tracking-wider text-background/50">Contact Us</h4>
             <ul className="space-y-2.5 text-sm text-background/60">
               <li>📞 +91 90423 59210</li>
-              <li>✉️ hello@zenxity.in</li>
-              <li>🌐 zenxity.in</li>
+              <li><a href="mailto:zenxity.in@gmail.com" className="hover:text-background transition-colors">✉️ zenxity.in@gmail.com</a></li>
               <li className="pt-2">📍 Coimbatore, Tamil Nadu</li>
-              <li>Mon–Sat, 9 AM – 6 PM</li>
               <li>Tamil & English support</li>
             </ul>
           </div>
@@ -94,3 +96,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
