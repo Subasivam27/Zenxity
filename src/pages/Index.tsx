@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import WhyChoose from "@/components/WhyChoose";
+
 import HowItWorks from "@/components/HowItWorks";
 import VideoSection from "@/components/VideoSection";
 import CTABanner from "@/components/CTABanner";
@@ -13,6 +14,7 @@ const Index = () => {
       <Navbar />
       <Hero />
       <WhyChoose />
+     
       <HowItWorks />
       <VideoSection />
       <CTABanner />
