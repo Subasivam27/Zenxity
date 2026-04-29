@@ -19,7 +19,8 @@ const WhyChoose = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6 lg:gap-8 p-4 lg:p-0">
           <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary/5 to-green-light p-8 border border-border/50">
-            <div className="absolute inset-0 bg-gradient-to-t from-primary/5 opacity-0 -z-10" />
+          <div className="absolute inset-0 bg-[url('../../assets/hero-farm.jpg')] bg-no-repeat bg-cover bg-center opacity-10 -z-10" />
+          <div className="absolute inset-0 bg-gradient-to-t from-primary/5" />
             <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-primary/20 transition-all duration-300 flex items-center justify-center shadow-lg">
               <CheckCircle className="w-10 h-10 text-primary drop-shadow-sm" />
             </div>
@@ -28,7 +29,8 @@ const WhyChoose = () => {
           </div>
 
           <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-accent/5 to-primary/5 p-8 border border-border/50">
-            <div className="absolute inset-0 bg-gradient-to-t from-accent/5 opacity-0 -z-10" />
+            <div className="absolute inset-0 bg-[url('../../assets/hero-farm-2.jpg')] bg-no-repeat bg-cover bg-center opacity-10 -z-10" />
+            <div className="absolute inset-0 bg-gradient-to-t from-accent/5" />
             <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-accent/20 transition-all duration-300 flex items-center justify-center shadow-lg">
               <Shield className="w-10 h-10 text-accent drop-shadow-sm" />
             </div>
@@ -37,7 +39,8 @@ const WhyChoose = () => {
           </div>
 
           <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-green-500/5 to-emerald-500/5 p-8 border border-border/50">
-            <div className="absolute inset-0 bg-gradient-to-t from-green-500/5 opacity-0 -z-10" />
+            <div className="absolute inset-0 bg-[url('../../assets/hero-farm.jpg')] bg-no-repeat bg-cover bg-center opacity-10 -z-10" />
+            <div className="absolute inset-0 bg-gradient-to-t from-green-500/5" />
             <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-green-500/20 transition-all duration-300 flex items-center justify-center shadow-lg">
               <Truck className="w-10 h-10 text-green-500 drop-shadow-sm" />
             </div>
@@ -46,7 +49,8 @@ const WhyChoose = () => {
           </div>
 
           <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-500/5 to-green-light p-8 border border-border/50">
-            <div className="absolute inset-0 bg-gradient-to-t from-emerald-500/5 opacity-0 -z-10" />
+            <div className="absolute inset-0 bg-[url('../../assets/hero-farm-2.jpg')] bg-no-repeat bg-cover bg-center opacity-10 -z-10" />
+            <div className="absolute inset-0 bg-gradient-to-t from-emerald-500/5" />
             <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-emerald-500/20 transition-all duration-300 flex items-center justify-center shadow-lg">
               <LandPlot className="w-10 h-10 text-emerald-500 drop-shadow-sm" />
             </div>
